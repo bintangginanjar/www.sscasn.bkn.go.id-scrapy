@@ -14,4 +14,4 @@ Scraping job posting information from www.sscasn.bkn.go.id using scrapy.
 
 ![Screenshot](2021-07-02_11-36.png)
 
-The result can be exported to csv, json or even xlsx file format
+The result can be exported to csv, json or even xlsx file format. Just simply put the extension (xlsx, csv or json) on output file
