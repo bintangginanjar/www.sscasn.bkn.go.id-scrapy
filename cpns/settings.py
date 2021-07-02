@@ -12,12 +12,16 @@ BOT_NAME = 'cpns'
 SPIDER_MODULES = ['cpns.spiders']
 NEWSPIDER_MODULE = 'cpns.spiders'
 
-
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'cpns (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
+
+# Adding excel file format
+FEED_EXPORTERS = {
+    'xlsx': 'scrapy_xlsx.XlsxItemExporter',
+}
 
 # Splash
 SPLASH_URL = 'http://localhost:8050'
